@@ -1,12 +1,12 @@
 <template>
   <div>
     This is vue project template.
-    <SampleComponent />
+    <SampleComponent message="Sample Message" />
   </div>
 </template>
 
 <script lang="ts">
-import { Options, Vue } from 'vue-class-component';
+import { Vue, Options } from 'vue-class-component';
 
 import { SampleComponent } from './components/sample';
 

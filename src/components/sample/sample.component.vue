@@ -1,7 +1,9 @@
 <template>
   <div>
     <div>This is sample component.</div>
-    <div>The message from mixin: {{ message }}</div>
+    <div>This is a message: {{ message }}</div>
+    <div>The message from mixin1: {{ mixinMessage1 }}</div>
+    <div>The message from mixin2: {{ mixinMessage2 }}</div>
     <OtherComponent />
   </div>
 </template>
